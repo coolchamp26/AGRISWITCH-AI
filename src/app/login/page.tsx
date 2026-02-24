@@ -43,7 +43,7 @@ export default function LoginPage() {
 
     const handleVerifyOTP = async () => {
         if (!otp || otp.length < 6) {
-            setError('Please enter the 6-digit OTP');
+            setError('Please enter at least 6-digit OTP');
             return;
         }
         setLoading(true);
@@ -145,10 +145,10 @@ export default function LoginPage() {
                                 <input
                                     type="text"
                                     value={otp}
-                                    onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
+                                    onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 8))}
                                     placeholder={t.login.otp_placeholder}
                                     className="w-full pl-10 pr-4 py-3 rounded-xl bg-green-900/40 border border-green-700/50 text-white placeholder-green-600 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-500/50 transition-all text-center tracking-widest text-lg"
-                                    maxLength={6}
+                                    maxLength={8}
                                     onKeyDown={(e) => e.key === 'Enter' && handleVerifyOTP()}
                                 />
                             </div>
