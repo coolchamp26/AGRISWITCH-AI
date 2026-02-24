@@ -79,7 +79,7 @@ The letter should:
         }
 
         const completion = await openai.chat.completions.create({
-            model: 'gpt-4o',
+            model: 'gpt-4o-mini',
             messages: [
                 {
                     role: 'system',
@@ -94,10 +94,13 @@ The letter should:
         const draft = completion.choices[0]?.message?.content || 'Unable to generate draft.';
 
         return NextResponse.json({ draft });
-    } catch (error) {
+    } catch (error: any) {
         console.error('Draft Generation error:', error);
         return NextResponse.json(
-            { error: 'Failed to generate application draft. Please try again.' },
+            {
+                error: 'Failed to generate application draft',
+                details: error.message || 'Unknown error'
+            },
             { status: 500 }
         );
     }

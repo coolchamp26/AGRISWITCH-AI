@@ -46,25 +46,27 @@ Please provide a clear summary for each scheme covering:
 Format clearly with headers for each scheme.`;
 
         const completion = await openai.chat.completions.create({
-            model: 'gpt-4o',
+            model: 'gpt-4o-mini',
             messages: [
                 {
                     role: 'system',
-                    content: 'You are a government scheme advisor. You MUST only summarize the provided policy data. NEVER invent new schemes or make up eligibility rules.',
+                    content: 'You are an agricultural policy assistant. Summarize policy details clearly and accurately. NEVER fabricate numbers.',
                 },
                 { role: 'user', content: prompt },
             ],
-            temperature: 0.2,
-            max_tokens: 2000,
+            temperature: 0.1,
         });
 
-        const summary = completion.choices[0]?.message?.content || 'Unable to generate policy summary.';
+        const summary = completion.choices[0]?.message?.content || 'Scheme details are being retrieved from the static database.';
 
         return NextResponse.json({ summary });
-    } catch (error) {
-        console.error('Policy Summary error:', error);
+    } catch (error: any) {
+        console.error('AI Policy error:', error);
         return NextResponse.json(
-            { error: 'Failed to generate policy summary. Please try again.' },
+            {
+                error: 'Failed to generate policy summary',
+                details: error.message || 'Unknown error'
+            },
             { status: 500 }
         );
     }

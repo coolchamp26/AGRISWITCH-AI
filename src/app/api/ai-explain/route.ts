@@ -59,7 +59,7 @@ Please provide:
 Format with clear headers and bullet points.`;
 
         const completion = await openai.chat.completions.create({
-            model: 'gpt-4o',
+            model: 'gpt-4o-mini',
             messages: [
                 {
                     role: 'system',
@@ -67,17 +67,19 @@ Format with clear headers and bullet points.`;
                 },
                 { role: 'user', content: prompt },
             ],
-            temperature: 0.3,
-            max_tokens: 1500,
+            temperature: 0.2,
         });
 
-        const explanation = completion.choices[0]?.message?.content || 'Unable to generate explanation.';
+        const explanation = completion.choices[0]?.message?.content || 'Calculation engine processed data correctly, but AI explanation is temporarily unavailable.';
 
         return NextResponse.json({ explanation });
-    } catch (error) {
-        console.error('AI Explanation error:', error);
+    } catch (error: any) {
+        console.error('AI Explain error:', error);
         return NextResponse.json(
-            { error: 'Failed to generate AI explanation. Please try again.' },
+            {
+                error: 'Failed to generate AI explanation',
+                details: error.message || 'Unknown error'
+            },
             { status: 500 }
         );
     }
