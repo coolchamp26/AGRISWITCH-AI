@@ -101,7 +101,7 @@
         "email_placeholder": "Enter your email",
         "send_otp": "Send OTP",
         "otp_label": "Enter OTP",
-        "otp_placeholder": "6-digit code",
+        "otp_placeholder": "8-digit code",
         "verify": "Verify & Login",
         "otp_sent": "OTP sent to your email!",
         "skip": "Skip Login (Demo Mode)"

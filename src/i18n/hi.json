@@ -101,7 +101,7 @@
         "email_placeholder": "अपना ईमेल दर्ज करें",
         "send_otp": "OTP भेजें",
         "otp_label": "OTP दर्ज करें",
-        "otp_placeholder": "6-अंकीय कोड",
+        "otp_placeholder": "8-अंकीय कोड",
         "verify": "सत्यापित करें और लॉगिन करें",
         "otp_sent": "OTP आपके ईमेल पर भेजा गया!",
         "skip": "लॉगिन छोड़ें (डेमो मोड)"
