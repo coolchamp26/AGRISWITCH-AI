@@ -1,0 +1,130 @@
+[
+  {
+    "id": "haryana-crm",
+    "name": "Crop Residue Management (CRM) Scheme — Haryana",
+    "state": "Haryana",
+    "description": "The Government of Haryana provides financial assistance to farmers and cooperative societies for purchase of crop residue management machinery. Under this scheme, individual farmers receive 50% subsidy and cooperative societies/FPOs/Panchayats receive 80% subsidy on the cost of machinery such as Happy Seeder, Super SMS, Paddy Straw Chopper, etc.",
+    "eligibility": [
+      "Individual farmers with land ownership records",
+      "Cooperative societies and FPOs registered in Haryana",
+      "Village Panchayats and farmer groups",
+      "Priority given to small and marginal farmers (less than 2 hectares)"
+    ],
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Land ownership documents (Jamabandi/Fard)",
+      "Bank account details (passbook copy)",
+      "Passport-size photograph",
+      "Mobile number linked to Aadhaar",
+      "Caste certificate (for SC/ST category benefits)"
+    ],
+    "howToApply": [
+      "Visit the official Haryana Agriculture Department portal (agriharyana.gov.in)",
+      "Register on the portal using Aadhaar and mobile number",
+      "Select the CRM scheme and choose the desired machinery",
+      "Upload required documents",
+      "Submit the application online",
+      "Verification will be done by Block Agriculture Officer",
+      "On approval, purchase machinery from an empanelled dealer and claim subsidy"
+    ],
+    "subsidyPercent": 50,
+    "maxAmount": "₹80,000 for individual farmers; up to ₹10 lakh for cooperatives",
+    "deadline": "Applications typically open June–September each year",
+    "source": "Haryana Agriculture Department — CRM Scheme Guidelines"
+  },
+  {
+    "id": "punjab-crm",
+    "name": "Crop Residue Management (CRM) Scheme — Punjab",
+    "state": "Punjab",
+    "description": "The Punjab Government, in collaboration with the Central Government under the CRM Scheme, provides subsidies on in-situ crop residue management machinery. Individual farmers receive 50% subsidy (up to ₹1.5 lakh) and Custom Hiring Centres (CHCs), cooperatives, and FPOs receive 80% subsidy on machinery like Happy Seeder, Super SMS, Zero Till Drill, Mulcher, etc.",
+    "eligibility": [
+      "All farmers of Punjab with valid land records",
+      "Custom Hiring Centres (CHCs) established by cooperative societies",
+      "Farmer Producer Organizations (FPOs)",
+      "Priority to farmers in high stubble-burning districts"
+    ],
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Khasra/Girdawari (land record)",
+      "Bank account passbook",
+      "Photograph",
+      "Mobile number",
+      "Registration on the Punjab AgriPortal"
+    ],
+    "howToApply": [
+      "Register at agrimachinerypb.com or Punjab Agri portal",
+      "Login and apply under the CRM scheme section",
+      "Select the machinery category and upload documents",
+      "Application verified at block level by Agriculture Development Officer (ADO)",
+      "After approval, purchase from empanelled manufacturer",
+      "Subsidy credited directly to bank account after verification"
+    ],
+    "subsidyPercent": 50,
+    "maxAmount": "₹1,50,000 for individual farmers; up to ₹12 lakh for CHCs/cooperatives",
+    "deadline": "Rolling enrollments, typically peak in July–October before Kharif harvest",
+    "source": "Punjab Agriculture Department — CRM Scheme 2024"
+  },
+  {
+    "id": "central-crm",
+    "name": "Central Sector Scheme on CRM — Government of India",
+    "state": "Central",
+    "description": "The Central Government's CRM Scheme, implemented through the Ministry of Agriculture, promotes in-situ management of crop residue in Punjab, Haryana, Uttar Pradesh, and NCR states. The scheme funds establishment of Custom Hiring Centres, farm machinery banks, and provides subsidies on individual machinery purchases to prevent stubble burning.",
+    "eligibility": [
+      "Farmers in Punjab, Haryana, Uttar Pradesh, and NCR Delhi",
+      "Village-level entrepreneur for CHC establishment",
+      "State Agriculture Department-supported cooperatives",
+      "Individual farmers with verified land records"
+    ],
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Land documents as per state requirements",
+      "Bank account details",
+      "Photograph and mobile number",
+      "Application through respective state portal"
+    ],
+    "howToApply": [
+      "Apply through respective state agriculture department portal",
+      "State government aggregates applications under central scheme",
+      "Block-level officer verifies eligibility",
+      "Central funds released to state, state disburses to farmer",
+      "Physical verification of machinery post-purchase"
+    ],
+    "subsidyPercent": 50,
+    "maxAmount": "As per state implementation guidelines — typically ₹1.5 lakh for individuals",
+    "deadline": "Aligned with state-level deadlines — generally pre-Kharif season",
+    "source": "Ministry of Agriculture & Farmers Welfare — CRM Scheme Guidelines"
+  },
+  {
+    "id": "up-crm",
+    "name": "Crop Residue Management Scheme — Uttar Pradesh",
+    "state": "Uttar Pradesh",
+    "description": "Uttar Pradesh provides subsidies under the central CRM scheme for purchase of straw management machinery. The state focuses on western UP districts adjacent to NCR where paddy stubble burning contributes to winter air pollution. Individual farmers get 50% subsidy and groups/CHCs get 80% subsidy.",
+    "eligibility": [
+      "Farmers in notified districts of western Uttar Pradesh",
+      "Registered Farmer Producer Organizations",
+      "Custom Hiring Centres established by cooperatives/FPOs",
+      "Priority for small and marginal farmers"
+    ],
+    "documentsRequired": [
+      "Aadhaar Card",
+      "Khatauni (land records)",
+      "Bank passbook copy",
+      "Passport-size photo",
+      "Mobile number linked with Aadhaar",
+      "Caste certificate if applicable"
+    ],
+    "howToApply": [
+      "Visit the UP Agriculture Department portal (upagriculture.com)",
+      "Register using Aadhaar number",
+      "Apply under CRM/Stubble Management section",
+      "Upload required documents",
+      "Block-level Agriculture Officer conducts verification",
+      "On approval, purchase machinery from approved dealer",
+      "Subsidy released to bank account after verification"
+    ],
+    "subsidyPercent": 50,
+    "maxAmount": "₹1,50,000 for individual farmers",
+    "deadline": "Applications open May–August typically",
+    "source": "UP Agriculture Department — CRM Scheme"
+  }
+]
